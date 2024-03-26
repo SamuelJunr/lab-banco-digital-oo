@@ -1,18 +1,25 @@
-# Criando um Banco Digital com Java e Orientação a Objetos
+# Preparatorio para certificação AZ-900
 
-## 02/08/2021 - [Mentoria #1: Tire Suas Dúvidas Sobre Orientação a Objetos](https://www.youtube.com/watch?v=YS6ouOhkyNI)
+## 26/03/24 - beneficios da nuvem Azure 
+ Os beneficios de nuvem são:
+ Elasticidade: A capacidade de escalar recursos de TI para cima ou para baixo automaticamente, de acordo com as necessidades do negócio.
 
-Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário:
-“Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência (entre contas da própria instituição).”
+ Confiabilidade:  A garantia de que os serviços e aplicações estarão disponíveis quando necessários, com redundância e backup adequados.
 
-### Abstração
-Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais. Nesse contexto, objetos são abstrações de entidades existentes no domínio em questão.
+ Alta disponibilidade: A habilidade de manter os serviços operacionais e acessíveis mesmo diante de falhas ou manutenções.
+ 
+ Estes são aspectos chave que fazem a plataforma Azure uma escolha robusta para hospedar e gerenciar serviços na nuvem.
 
-### Encapsulamento
-Encapsular significa esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender. O encapsulamento favorece principalmente dois aspectos de um sistema: a manutenção e a evolução.
+Para criar uma máquina virtual no Azure e garantir a maior disponibilidade global, você pode seguir estes passos:
 
-### Herança
-Permite que você defina uma classe filha que reutiliza (herda), estende ou modifica o comportamento de uma classe pai. A classe cujos membros são herdados é chamada de classe base. A classe que herda os membros da classe base é chamada de classe derivada.
+1. Entrar no Azure: Acesse o Portal do Azure.
+2. Criar máquina virtual: No portal, busque por “máquinas virtuais” e selecione o serviço correspondente. Clique em “Criar” e escolha “Máquina virtual do Azure”.
+3. Configurar a VM: Preencha os detalhes da instância, como nome e imagem da máquina virtual. Escolha uma região que suporte zonas de disponibilidade.
+4. Definir disponibilidade: Na seção de opções de disponibilidade, selecione “Zonas de disponibilidade” para distribuir suas VMs em zonas fisicamente separadas dentro da região escolhida.
+5. Conjuntos de disponibilidade: Para aplicações altamente disponíveis, crie duas ou mais VMs dentro de um conjunto de disponibilidade1.
+6. Balanceador de carga: Combine o Azure Load Balancer com zonas de disponibilidade e conjuntos de dimensionamento para obter a maior resiliência da aplicação1.
+7. Revisar e criar: Verifique as configurações e, após a validação, clique em “Criar” para implantar sua VM.
+Lembre-se de que a escolha de zonas de disponibilidade e conjuntos de disponibilidade são cruciais para garantir a alta disponibilidade global da sua máquina virtual.
 
-### Polimorfismo
-Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode mudar é a maneira como nos referimos a ele.
+
+ 
