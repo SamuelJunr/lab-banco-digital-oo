@@ -70,9 +70,16 @@ Segurança de aplicativos: Proteger seus aplicativos e dados.
 Acesso e identidade: Gerenciar quem tem acesso aos recursos.
 Backup e recuperação: Planejar e executar backups e recuperação de dados.
 Conformidade de aplicativos: Garantir que seus aplicativos atendam aos requisitos regulatórios.
+
+
+
 Monitoramento e alertas: Monitorar o desempenho e receber alertas.
 Essas responsabilidades são visíveis e configuráveis por você.
 
 
+## 30/03/24 - datacenteres e grupos de assinaturas
+
+atraves deste site é posivel localizar os data centers da maicrosoft 
+a gestão da conta e assinaturas é de importancia crucial para separação de custo de cada projeto.
 
  
